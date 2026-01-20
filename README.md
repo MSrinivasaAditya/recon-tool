@@ -8,27 +8,20 @@ A Python-based network reconnaissance tool designed to automate the subdomain en
 This tool is intended for authorized security testing only. Unauthorized port scanning and reconnaissance may be illegal in your jurisdiction. Always obtain proper authorization before scanning networks or systems you do not own.
 
 🎯 Current Features
-Subdomain Enumeration: Discovers subdomains using Sublist3r
-Port Scanning: Automated nmap scanning of discovered subdomains
-Service Detection: Identifies running services and their versions
-Formatted Output: Clean, tabulated results for easy analysis
-Error Handling: Graceful handling of interruptions and errors
+-Subdomain Enumeration: Discovers subdomains using Sublist3r
+-Port Scanning: Automated nmap scanning of discovered subdomains
+-Service Detection: Identifies running services and their versions
+-Formatted Output: Clean, tabulated results for easy analysis
+-Error Handling: Graceful handling of interruptions and errors
 🚧 Project Status
 ✅ Working Features
- Subdomain discovery
- Multi-subdomain port scanning
- Service version detection
- Terminal-based output with tabulate
- Keyboard interrupt handling
+ -Subdomain discovery
+ -Multi-subdomain port scanning
+ -Service version detection
+ -Terminal-based output with tabulate
+ -Keyboard interrupt handling
 📋 Planned Features
- JSON/CSV export functionality
- HTML report generation
- Vulnerability scanning integration
- Custom port range specification
- Multi-threading for faster scans
- Configuration file support
- Integration with finding documentation tool (future project)
- Web-based dashboard for results
+- TBA
 📦 Installation
 Prerequisites
 Python 3.6 or higher
@@ -121,11 +114,10 @@ Scan speed depends on network conditions and target responsiveness
 Sublist3r may miss subdomains not indexed in public databases
 No current support for authenticated scans
 👤 Author
-[Your Name]
+[M Srinivasa Aditya]
 
 🙏 Acknowledgments
 Sublist3r by Ahmed Aboul-Ela
 python-nmap
 tabulate
 Remember: Always obtain proper authorization before performing security assessments.
-
