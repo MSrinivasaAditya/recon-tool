@@ -121,3 +121,7 @@ Sublist3r by Ahmed Aboul-Ela
 python-nmap
 tabulate
 Remember: Always obtain proper authorization before performing security assessments.
+
+![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
